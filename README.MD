@@ -1,5 +1,7 @@
 # Agentic Educational Designer
 
+## Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
+
 ## BELANGRIJKE DISCLAIMER
 
 > Let op: output van agents kan onvolledig, verouderd of onjuist zijn.
@@ -8,8 +10,6 @@
 > - bronverificatie;
 > - didactische kwaliteit;
 > - validiteit van alle gebruikte data.
-
-Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
 
 ## Doel
 Deze repository bevat een template-structuur en werkafspraken voor het ontwerpen van lessen binnen een module, inclusief documentatie van bronnen, evaluaties en keuzeverantwoording.
