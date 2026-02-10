@@ -97,6 +97,7 @@ De gebruiker en agent doorlopen de stappen uit `AGENTS.md`:
 
 ## Belangrijke bestanden
 - `AGENTS.md`: afspraken, structuur en werkwijze van de agent.
+- `vscode.md`: korte handleiding voor werken met dit project in VS Code (Markdown lezen + agentgebruik via terminal of extensie).
 - `docs/moduleplan.md`: modulecontext en leeruitkomsten.
 - `docs/module_overzicht.md`: planningsoverzicht per week/les.
 - `docs/lessen/les_XX/`: lesgebonden documenten en materialen.
