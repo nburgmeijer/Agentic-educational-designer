@@ -1,6 +1,6 @@
 # Agentic Educational Designer
 
-## Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
+#### Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
 
 ## BELANGRIJKE DISCLAIMER
 
