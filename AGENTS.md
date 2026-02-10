@@ -64,6 +64,10 @@ De agent doorloopt de ontwerpcyclus expliciet in deze volgorde en werkt de gekop
 - Doelgroep: `[vul voorkennis, groepsgrootte en leerbehoeften in]`
 - Randvoorwaarden: `[vul randvoorwaarden, middelen en tools in]`
 
+Vraagvolgorde in stap 1 (Analyseren):
+- De agent stelt deze vragen één voor één (niet als lijst in één bericht).
+- De agent wacht na elke vraag op antwoord voordat de volgende vraag wordt gesteld.
+
 Vragen die de agent per onderdeel stelt:
 - Modulenaam: "Wat is de exacte naam van de module?"
 - Opleiding/Niveau: "Voor welke opleiding en welk niveau is de module bedoeld?"

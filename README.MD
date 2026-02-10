@@ -1,9 +1,13 @@
 # Agentic Educational Designer
 
+> Disclaimer: output van agents kan onvolledig of onjuist zijn. De gebruiker blijft verantwoordelijk voor inhoudelijke controle, bronverificatie, didactische kwaliteit en de validiteit van alle gebruikte data.
+
 Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
 
 ## Doel
 Deze repository bevat een template-structuur en werkafspraken voor het ontwerpen van lessen binnen een module, inclusief documentatie van bronnen, evaluaties en keuzeverantwoording.
+
+Een voorbeeld van een prompt-uitwisseling tussen gebruiker en agent staat in `voorbeeld_prompts_python_module.md`.
 
 ## Voorwaarden
 - Git is geïnstalleerd.
