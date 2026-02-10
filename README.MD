@@ -1,6 +1,13 @@
 # Agentic Educational Designer
 
-> Disclaimer: output van agents kan onvolledig of onjuist zijn. De gebruiker blijft verantwoordelijk voor inhoudelijke controle, bronverificatie, didactische kwaliteit en de validiteit van alle gebruikte data.
+## BELANGRIJKE DISCLAIMER
+
+> Let op: output van agents kan onvolledig, verouderd of onjuist zijn.
+> De gebruiker blijft altijd verantwoordelijk voor:
+> - inhoudelijke controle;
+> - bronverificatie;
+> - didactische kwaliteit;
+> - validiteit van alle gebruikte data.
 
 Dit project is een basis om met een agent een onderwijsmodule te ontwikkelen.
 
