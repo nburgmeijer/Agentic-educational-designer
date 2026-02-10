@@ -6,7 +6,10 @@ Dit bestand simuleert een volledige interactie tussen gebruiker en agent voor he
 
 **Gebruiker:**
 ```text
-init
+Lees eerst AGENTS.md volledig.
+Start daarna de bootstrapflow.
+Stel de bootstrapvragen één voor één en wacht steeds op antwoord.
+Begin nu met vraag 1: modulenaam.
 ```
 
 **Agent:**
@@ -21,17 +24,7 @@ Python Fundamentals voor Software Developers
 
 **Agent:**
 ```text
-Wat is de nieuwe remote URL?
-```
-
-**Gebruiker:**
-```text
-https://github.com/example/python-fundamentals-module.git
-```
-
-**Agent:**
-```text
-Ik verwerk de modulenaam in de modulecontext, stel de remote in en controleer met git remote -v.
+Ik verwerk de modulenaam in de modulecontext en start daarna stap 1 van de ontwerpcyclus.
 ```
 
 **Gebruiker:**

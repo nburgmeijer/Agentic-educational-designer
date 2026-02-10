@@ -26,10 +26,9 @@ Een voorbeeld van een prompt-uitwisseling tussen gebruiker en agent staat in `vo
 1. Clone deze repository.
 2. Open deze repository lokaal in je editor.
 3. Start een agent-sessie in deze map (bijvoorbeeld Codex).
-4. Start de bootstrap met de prompt: `init`.
-5. Beantwoord de vragen van de agent (modulenaam en nieuwe remote).
-6. De agent stelt de remote in en controleert de uitkomst.
-7. Gebruiker en agent doorlopen samen de ontwerpstappen uit `AGENTS.md`.
+4. Start de bootstrap met de startprompt (zie hieronder).
+5. Beantwoord de vragen van de agent (één voor één).
+6. Gebruiker en agent doorlopen samen de ontwerpstappen uit `AGENTS.md`.
 
 ## Stap-voor-stap
 1. Clone repository
@@ -48,43 +47,34 @@ Gebruik je geen Codex, geef dan aan de agent minimaal:
 - hoe de ontwerpcyclus is opgebouwd;
 - welke map- en bestandsstructuur gebruikt moet worden.
 
-3. Start bootstrap
+3. Start bootstrap met deze prompt
 Voorbeeld prompt:
 ```text
-init
+Lees eerst AGENTS.md volledig.
+Start daarna de bootstrapflow.
+Stel de bootstrapvragen één voor één en wacht steeds op antwoord.
+Begin nu met vraag 1: modulenaam.
 ```
 
 4. Beantwoord de vragen van de agent
 Voorbeeld antwoorden:
 ```text
 Modulenaam: <jouw modulenaam>
-Remote: <nieuwe-remote-url>
 ```
 
-5. Agent stelt remote in
-Voorbeeld commando dat de agent uitvoert:
-```bash
-git remote set-url origin <nieuwe-remote-url>
-```
-
-6. Controleer remote
-```bash
-git remote -v
-```
-
-## Bootstrapflow (`init`)
-Gebruik voor projectstart altijd de prompt:
+## Bootstrapflow (startprompt)
+Gebruik voor projectstart altijd deze prompt:
 
 ```text
-init
+Lees eerst AGENTS.md volledig.
+Start daarna de bootstrapflow.
+Stel de bootstrapvragen één voor één en wacht steeds op antwoord.
+Begin nu met vraag 1: modulenaam.
 ```
 
 Daarna voert de agent deze flow uit:
 1. Vraagt de modulenaam.
-2. Vraagt de nieuwe remote URL.
-3. Verwerkt de modulenaam in de modulecontext.
-4. Zet `origin` naar de opgegeven remote.
-5. Controleert de ingestelde remote.
+2. Verwerkt de modulenaam in de modulecontext.
 
 Let op:
 - Punt 5 uit de projectchecklist (lesnummering concretiseren van `les_XX` naar `les_01`, `les_02`, etc.) wordt geautomatiseerd tijdens het ontwerpproces, niet tijdens bootstrap.
@@ -92,8 +82,6 @@ Let op:
 ## Verantwoordelijkheden
 - Gebruiker:
   - Is verantwoordelijk voor clonen in de juiste directory.
-  - Is verantwoordelijk voor het aanleveren van de juiste remote URL.
-  - Controleert de uiteindelijke Git-configuratie.
 - Agent:
   - Richt de projectdocumenten in volgens `AGENTS.md`.
   - Werkt de module uit via de ontwerpcyclus.

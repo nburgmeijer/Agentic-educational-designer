@@ -8,14 +8,20 @@ De agent houdt gedurende het hele ontwerptraject een actuele bronnenlijst bij.
 Gemaakte keuzes, afwegingen en onderbouwingen worden vastgelegd in duidelijk te onderscheiden documenten, opgemaakt in Markdown.
 Notatie: in bestandsnamen staat `XX` voor het lesnummer (bijvoorbeeld `les_01`, `les_02`, `les_10`).
 
-## Standaard Bootstrapflow (`init`)
-Bij de prompt `init` start de agent altijd dezelfde bootstrapflow:
+## Standaard Bootstrapflow (startprompt)
+De gebruiker start de bootstrapflow met deze prompt:
+
+```text
+Lees eerst AGENTS.md volledig.
+Start daarna de bootstrapflow.
+Stel de bootstrapvragen één voor één en wacht steeds op antwoord.
+Begin nu met vraag 1: modulenaam.
+```
+
+Daarna voert de agent deze bootstrapflow uit:
 
 1. Vraag: "Wat is de modulenaam?"
-2. Vraag: "Wat is de nieuwe remote URL?"
-3. Verwerk de modulenaam in de modulecontext (`docs/moduleplan.md`).
-4. Pas de Git remote aan naar de opgegeven URL (`origin`).
-5. Bevestig de ingestelde remote met een check (`git remote -v`).
+2. Verwerk de modulenaam in de modulecontext (`docs/moduleplan.md`).
 
 Automatisering-afspraak:
 - Punt 5 uit de projectchecklist (concretiseren van `les_XX` naar `les_01`, `les_02`, etc.) wordt niet in de bootstrap gedaan.
